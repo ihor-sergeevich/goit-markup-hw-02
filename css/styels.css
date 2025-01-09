@@ -87,7 +87,6 @@ body {
 /* Hero-project */
 
 .hero-name {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -95,11 +94,66 @@ body {
   color: #2e2f42;
 }
 
-.hero-description {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
+/* Our-Team-project */
+.our-team {
+  background-color: #f4f4fd;
+}
+
+.our-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
   letter-spacing: 0.02em;
-  color: #434455;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.our-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.our-card {
+  background-color: #fff;
+}
+
+/* Our-Portfolio-project */
+
+.portfolio-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.portfolio-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.portfolio-card {
+  background-color: #fff;
+}
+
+/* Footer */
+
+.footer {
+  background: #2e2f42;
+}
+
+.footer-logo span {
+  color: #f4f4fd;
+}
+
+.footer-description {
+  color: #f4f4fd;
 }
