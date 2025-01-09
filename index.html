@@ -6,25 +6,31 @@
     <meta name="description" content="Effective solutions for your business" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+        integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styels.css">
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <!-- WebStudio-project -->
-        <nav>
-            <a href="./index.html">WebStudio</a>
-            <ul>
-                <li><a href="./index.html">Studio</a></li>
-                <li><a href="Portfolio">Portfolio</a></li>
-                <li><a href="Contacts">Contacts</a> </li>
+        <nav class="header-nav">
+            <a class="header-logo" href="./index.html">Web<span>Studio</span></a>
+            <ul class="header-list">
+                <li><a class="header-link" href="./index.html">Studio</a></li>
+                <li><a class="header-link" href="Portfolio">Portfolio</a></li>
             </ul>
         </nav>
         <!-- address -->
-        <address>
+        <address class="header-address">
             <ul>
-                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a href="tel:+110001111111">+11 (000) 111-11-11</a> </li>
+                <li><a class="header-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li><a class="header-link" href="tel:+110001111111">+11 (000) 111-11-11</a> </li>
             </ul>
         </address>
     </header>
@@ -32,10 +38,9 @@
 
     <main>
         <!-- Effective-project -->
-        <section>
-            <h1>Effective Solutions for Your Business</h1>
-
-            <button type="button">Order Service</button>
+        <section class="effective-project">
+            <h1 class="effective-project-title">Effective Solutions for Your Business</h1>
+            <button class="effective-project-button" type="button">Order Service</button>
         </section>
         <!-- Hero-project -->
         <section>

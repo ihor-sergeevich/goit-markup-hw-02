@@ -1,0 +1,84 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  background-color: #fff;
+}
+/* <!-- WebStudio-project --> */
+
+.header-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.header-logo span {
+  color: #2e2f42;
+}
+
+.header-link {
+  font-weight: 500;
+  color: #2e2f42;
+}
+
+.header-link:hover {
+  color: #404bbf;
+}
+
+.header-link:focus {
+  color: #404bbf;
+}
+
+.header-address {
+  font-style: normal;
+}
+
+.header-address a {
+  color: #434455;
+}
+
+.header-address a:hover {
+  color: #404bbf;
+}
+
+.header-address a:focus {
+  color: #404bbf;
+}
+
+.effective-project {
+  background-color: #2e2f42;
+}
+
+.effective-project-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+}
+
+.effective-project-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  border: none;
+  color: #fff;
+  background-color: #4d5ae5;
+}
+
+.effective-project-button :hover {
+  background-color: #404bbf;
+}
+
+.effective-project-button :focus {
+  background-color: #404bbf;
+}
