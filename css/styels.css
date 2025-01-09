@@ -52,6 +52,8 @@ body {
   color: #404bbf;
 }
 
+/* Effective-project */
+
 .effective-project {
   background-color: #2e2f42;
 }
@@ -65,9 +67,9 @@ body {
   color: #fff;
 }
 
-.effective-project-button {
+.effective-button {
+  cursor: pointer;
   font-weight: 500;
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   border: none;
@@ -75,10 +77,9 @@ body {
   background-color: #4d5ae5;
 }
 
-.effective-project-button :hover {
+.effective-button:hover {
   background-color: #404bbf;
 }
-
-.effective-project-button :focus {
+.effective-button:focus {
   background-color: #404bbf;
 }
